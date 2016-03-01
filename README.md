@@ -16,3 +16,6 @@ These problems would've been solved if I had more experience with using an elect
 # Bugs
 - When doing a long whistle or sound for a long time, sometimes the LED matrix will fluctuate between states then settle back to the state it should be in. This can be fixed by adjusting the volume at which each color is triggered at. 
 - Difficult to get to orange face(medium tone) sometimes. By spreading out the volume required for each color more, it should be easier to get to the neutral face. 
+
+#Demonstration
+https://www.youtube.com/watch?v=FUkW7Dz_njA
