@@ -7,7 +7,7 @@ Software
 I used the io.h and interrupt.h files provided in lab. FOur different state machines were created for each of the different faces which were displayed on the 8x8 LED matrix using shift registers. 
 Hardware
 Microcontroller used was the ATMega1284. This microcontroller along with all the hardware were placed on the breadboard.
-#Difficulties/Bugs
+#Difficulties
 - Using a component I've never programmed with before(microphone), created some complications with the production of this project.
 - Couldn't read in frequency which was the intended method for detecting tone. 
 - Microphone would either pick up my voice easily along with too much background noise or not pick up background noise, but i would have to whistle or talk loud for it to detect sound properly.  
