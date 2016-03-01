@@ -7,11 +7,12 @@ Software
 I used the io.h and interrupt.h files provided in lab. FOur different state machines were created for each of the different faces which were displayed on the 8x8 LED matrix using shift registers. 
 Hardware
 Microcontroller used was the ATMega1284. This microcontroller along with all the hardware were placed on the breadboard.
-#Difficulties
+#Difficulties/Bugs
 - Using a component I've never programmed with before(microphone), created some complications with the production of this project.
 - Couldn't read in frequency which was the intended method for detecting tone. 
 - Microphone would either pick up my voice easily along with too much background noise or not pick up background noise, but i would have to whistle or talk loud for it to detect sound properly.  
 These problems would've been solved if I had more experience with using an electret microphone. I would've changed tone detection to be based off of frequency, and added the ability to click a button which saves where you want your neutral frequency/tone to be at. 
-#Bugs
+
+# Bugs
 - When doing a long whistle or sound for a long time, sometimes the LED matrix will fluctuate between states then settle back to the state it should be in. This can be fixed by adjusting the volume at which each color is triggered at. 
 - Difficult to get to orange face(medium tone) sometimes. By spreading out the volume required for each color more, it should be easier to get to the neutral face. 
